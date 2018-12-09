@@ -9,3 +9,5 @@ My practice of robotics easy implementation.
     - [Lagrange polynomial](https://en.wikipedia.org/wiki/Lagrange_polynomial)
   - `cubic_spline.py`
     - [cubic spline (ja)](http://www.yamamo10.jp/yamamoto/lecture/2006/5E/interpolation/interpolation_html/node3.html)
+  - `bspline.py`
+    - [b-spline](https://en.wikipedia.org/wiki/B-spline)
