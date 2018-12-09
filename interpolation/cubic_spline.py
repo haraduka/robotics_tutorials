@@ -10,6 +10,9 @@ class CubicSplineInterpolation:
         self.x_seq = []
         self.y_seq = []
 
+        self.x_cmd_seq = []
+        self.y_cmd_seq = []
+
         print("# initialized.")
 
     def u_j(self, points, j, x):
@@ -23,6 +26,9 @@ class CubicSplineInterpolation:
         N = len(points)-1
         px = np.array(points)[:, 0]
         py = np.array(points)[:, 1]
+        self.x_cmd_seq = px[:]
+        self.y_cmd_seq = py[:]
+
         h = []
         for x0, x1 in zip(px[:-1], px[1:]):
             h.append(x1-x0)
@@ -74,6 +80,7 @@ class CubicSplineInterpolation:
         self.xy_plot.set_xlabel("x")
         self.xy_plot.set_ylabel("y")
         self.xy_plot.plot(self.x_seq, self.y_seq, color='b')
+        self.xy_plot.plot(self.x_cmd_seq, self.y_cmd_seq, color='r')
         plt.show()
 
 
