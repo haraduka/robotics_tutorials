@@ -19,9 +19,12 @@ My practice of robotics easy implementation.
     - [Humanoid Robot (ja)](https://staff.aist.go.jp/s.kajita/humanoidrobot.html)
   - `preview_control.py`
     - [Humanoid Robot (ja)](https://staff.aist.go.jp/s.kajita/humanoidrobot.html)
+  - `model_predictive_control.py`
+    - [Humanoid Robot (ja)](https://staff.aist.go.jp/s.kajita/humanoidrobot.html)
 
 ## requirements
 - python-2.7
 - numpy
 - matplotlib
 - python-control
+- cvxpy
