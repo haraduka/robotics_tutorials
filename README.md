@@ -24,6 +24,8 @@ My practice of robotics easy implementation.
 - statistics
   - `pca.py`
     - [pca (ja)](http://yusuke-ujitoko.hatenablog.com/entry/2017/03/04/193628)
+  - `fisher.py`
+    - [fisher (ja)](https://qiita.com/pira/items/4c84399671be2cb598e4)
 
 ## requirements
 - python-2.7
