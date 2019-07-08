@@ -21,6 +21,9 @@ My practice of robotics easy implementation.
     - [Humanoid Robot (ja)](https://staff.aist.go.jp/s.kajita/humanoidrobot.html)
   - `model_predictive_control.py`
     - [Humanoid Robot (ja)](https://staff.aist.go.jp/s.kajita/humanoidrobot.html)
+- statistics
+  - `pca.py`
+    - [pca (ja)](http://yusuke-ujitoko.hatenablog.com/entry/2017/03/04/193628)
 
 ## requirements
 - python-2.7
