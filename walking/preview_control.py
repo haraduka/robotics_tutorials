@@ -3,8 +3,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
-from control.matlab import *
-from control import dare
+import scipy.linalg
 
 
 class PreviewControl:
@@ -33,7 +32,8 @@ class PreviewControl:
         print(c.T.dot(Q).dot(c))
         print(R)
 
-        P, e, K = dare(A, b, c.T.dot(Q).dot(c), R)
+        P = scipy.linalg.solve_discrete_are(A, b, c.T.dot(Q).dot(c), R)
+        K = np.linalg.inv(b.T.dot(P).dot(b)+R).dot(b.T.dot(P).dot(A))
         print(P)
         print(K)
 
