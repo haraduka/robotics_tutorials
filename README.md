@@ -31,6 +31,8 @@ My practice of robotics easy implementation.
     - [kernel pca (ja)](https://satomacoto.blogspot.com/2012/01/python_06.html)
   - `mutual_information.py`
     - [mutual information](https://rtmath.net/help/html/b685662b-f253-4069-a892-05349c5db080.htm)
+  - `locally weighted regression`
+    - [locally weighted regression](https://medium.com/100-days-of-algorithms/day-97-locally-weighted-regression-c9cfaff087fb)
 
 
 ## requirements
