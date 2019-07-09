@@ -26,6 +26,10 @@ My practice of robotics easy implementation.
     - [pca (ja)](http://yusuke-ujitoko.hatenablog.com/entry/2017/03/04/193628)
   - `fisher.py`
     - [fisher (ja)](https://qiita.com/pira/items/4c84399671be2cb598e4)
+  - `kernel_pca.py`
+    - [kernel pca (ja)](https://www.ism.ac.jp/~fukumizu/OsakaU2014/OsakaU_1intro.pdf)
+    - [kernel pca (ja)](https://satomacoto.blogspot.com/2012/01/python_06.html)
+
 
 ## requirements
 - python-2.7
