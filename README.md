@@ -29,6 +29,8 @@ My practice of robotics easy implementation.
   - `kernel_pca.py`
     - [kernel pca (ja)](https://www.ism.ac.jp/~fukumizu/OsakaU2014/OsakaU_1intro.pdf)
     - [kernel pca (ja)](https://satomacoto.blogspot.com/2012/01/python_06.html)
+  - `mutual_information.py`
+    - [mutual information](https://rtmath.net/help/html/b685662b-f253-4069-a892-05349c5db080.htm)
 
 
 ## requirements
